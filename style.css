@@ -1,0 +1,234 @@
+.bg-body-tertiary {
+	background-color: transparent;
+	padding: 1px;
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	text-align: center;
+}
+
+nav li {
+	margin: 0 10px;
+	text-align: center;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	padding: 50px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: gold;
+	text-align: center;
+}
+
+nav form {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+nav input[type="search"] {
+	border: none;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+nav button[type="submit"] {
+	background-color: white;
+	color: black;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+}
+
+nav button[type="submit"]:hover {
+	background-color: gold;
+	text-align: center;
+}
+
+
+/* FONDO*/
+video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+
+/* CENTRAR IMAGEN DE MUNDIAL*/
+#Centrar-img {
+
+	position: center;
+	height: 30px;
+	width: 70px;
+	margin: 50px auto;
+	transform: scale(5.5);
+}
+
+#Centrar-text {
+	text-align: center;
+}
+
+
+#efectos {
+	display: inline-block;
+	padding: 15px;
+	background-color: transparent;
+	color: black;
+	text-decoration: auto;
+	border-radius: 30px;
+
+
+	background-color: black;
+	color: white;
+	text-align: right;
+
+
+}
+
+
+
+/*LISTA CONTACTO*/
+
+
+#list-one {
+	display: grid;
+	place-items: center;
+}
+
+#myList {
+
+	border-radius: 50px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin: 50px;
+	width: 45%;
+	list-style: none;
+
+	text-align: center;
+}
+
+.Logo-list {
+	width: 30px;
+	text-align: none;
+	right: 30px;
+}
+
+
+/* tarjetas*/
+
+#card_one {
+	display: flex;
+	/* Enable flexbox layout for the container */
+	justify-content: center;
+	/* Center the cards horizontally */
+	align-items: center;
+	/* Center the cards vertically (optional) */
+	flex-wrap: wrap;
+	/* Allow cards to wrap to the next line if they don't fit */
+	margin: 0 auto;
+	/* Center the container horizontally within its parent element */
+}
+
+/* Style each card (optional) */
+.card {
+	width: 18rem;
+	/* Adjust card width as needed */
+	margin: 10px;
+	/* Add margin between cards if desired */
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	/* Add a light shadow (optional) */
+}
+
+
+
+/*Imagen de productos width: 400px;
+	height: 350px;
+	object-fit:auto;
+	text-align: center;
+	transform: scale(0.4);
+	border-radius: 1px;
+	text-align: center;*/
+.card-img0 {
+
+	width: 100%;
+	height: 350px;
+	object-fit: scale-down;
+	text-align: center;
+	transform: scale(0.7);
+	border-radius: 10px;
+}
+
+.card-img1 {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	text-align: center;
+	transform: scale(0.9);
+	border-radius: 10px;
+}
+
+/* PIE DE PAGINA*/
+footer {
+
+
+	box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+	/* Add a subtle shadow */
+	border-radius: 0px;
+	/* Create rounded corners */
+	/* Prevent content from overflowing */
+
+	font-size: 10px;
+	/* Adjust body text font size */
+	line-height: 1px;
+	padding: 90px;
+	margin-top: 500px;
+	margin: 90px;
+
+	color: black;
+	text-align: center;
+	position: auto;
+	/* Posicionamiento fijo */
+	bottom: 100px;
+	/* Ubicar al final de la página */
+	width: 100%;
+	/* Ancho completo */
+	padding: 1px;
+	text-align: center;
+	/* Centrar el texto */
+	z-index: none;
+	margin: -3px;
+
+
+	place-items: center;
+	text-align: center;
+
+
+}
+
+#logo12 {
+	width: 50px;
+	height: auto;
+	margin-right: 20px;
+	text-align: center;
+
+}
